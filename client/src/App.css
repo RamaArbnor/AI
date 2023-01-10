@@ -1,0 +1,33 @@
+.main {
+  /* text-align: center; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.button {
+  background-color: greenyellow;
+  /* color: white; */
+  font-size: 2rem;
+  margin-top: 1rem;
+  /* font-weight: bold; */
+}
+
+.button:hover {
+  cursor:pointer;
+}
+
+.button:active{
+  background-color: aquamarine;
+}
+
+#input {
+  font-size: 2rem;
+}
+
+#reply {
+  padding: 1rem;
+  font-size: 1.2rem;
+  color: black;
+}
