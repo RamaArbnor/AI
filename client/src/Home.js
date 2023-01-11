@@ -25,7 +25,7 @@ export default function Home(){
 
     async function submit() {
         setReply("Loading...")
-        const apiUrl = 'http://localhost:5000/query';
+        const apiUrl = 'https://ai-srv.vercel.app/query';
         // const apiKey = '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';
       
         let response = await axios({
